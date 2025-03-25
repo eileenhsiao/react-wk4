@@ -14,7 +14,7 @@ function Book() {
       <div className="container mx-auto main-layout bg-gray-900">
          <Header
             title="Book Detail"
-            slogan="An example made by Vite."
+            slogan="More information for you."
          />
          <BookDetail book={book} className="content" />
          <Footer className="footer" />

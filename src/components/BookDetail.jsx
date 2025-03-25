@@ -21,7 +21,7 @@ function BookDetail({ book }) {
       {/* 價格與按鈕 */}
       <div className="flex flex-col gap-4">
         <p className="text-2xl font-semibold">US${book.price}.00</p>
-        <p className="text-l font-semibold">stock：{book.stock}</p>
+        <p className="text-l font-semibold opacity-70">stock：{book.stock}</p>
         <AddToCart />
       </div>
       </div>
