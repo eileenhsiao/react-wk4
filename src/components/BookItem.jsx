@@ -10,7 +10,7 @@ function BookItem({ book }) {
                <img className="w-full" src={book.cover} alt={book.title} />
             </Link>
             <div className="p-4">
-            <h6 className="text-white opacity-80 mb-1">
+               <h6 className="text-white opacity-80 mb-1">
                   {book.author}
                </h6>
                <h5 className="text-white mb-3">
@@ -18,7 +18,7 @@ function BookItem({ book }) {
                </h5>
                <p className="text-white opacity-70 mb-3">
                   {_.truncate(book.summary, { length: 60, omission: " ... " })}
-               </p>               
+               </p>
                <div className="flex justify-between flex-wrap">
                   <Link to={`/books/id/${book.id}`} className="no-underline text-blue-500 flex items-center">
                      See More
